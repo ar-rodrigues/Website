@@ -12,11 +12,11 @@ function Language({setLang}) {
       <div className='flag-box'>
         <h3>Idioma</h3>
         <div>
-          <a href='#' onClick={()=>setLang(1)}>
+          <a href='https://alisson-rodrigues-pt.netlify.app/' >
             <img src={brazilFlag} alt='bandeira do brasil'    width='100'/>
           </a>
 
-          <a href='https://alisson-rodrigues.netlify.app/' onClick={()=>setLang(2)}>
+          <a href='#' onClick={()=>setLang(1)}>
             <img src={spanishFlag} alt='bandera de españa'  width='100'/>
           </a>
         </div>

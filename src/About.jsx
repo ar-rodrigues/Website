@@ -26,7 +26,7 @@ function About({lang}) {
           <article key={id} className="info-about">
             <img src={photo} alt="alisson rodrigues" />
             <div className="info-text">
-              <h3>{`${name}, ${getAge(birth)} anos`}</h3>
+              <h3>{`${name}, ${getAge(birth)} años`}</h3>
               <h4>Sobre</h4>
               <p>{about}</p>
             </div>
