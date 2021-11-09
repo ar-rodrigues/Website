@@ -12,7 +12,6 @@ import { AiOutlineRight, AiOutlineLeft } from "react-icons/ai";
 
 function App() {
   const refer = document.referrer
-  console.log(refer)
   const [lang, setLang] = useState(0)
   
 
@@ -35,7 +34,7 @@ function App() {
     }
   }, [index, activeSection]);
   console.log(`lang is ${lang}`)
-  if(lang === 0)return <LanguageChoice setLang={setLang} />
+  if(lang === 0 && refer === false)return <LanguageChoice setLang={setLang} />
 
   return (
     <main>
