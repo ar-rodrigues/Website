@@ -11,7 +11,8 @@ import LanguageChoice from './LanguageChoice'
 import { AiOutlineRight, AiOutlineLeft } from "react-icons/ai";
 
 function App() {
-
+  const refer = document.referrer
+  console.log(refer)
   const [lang, setLang] = useState(0)
   
 
