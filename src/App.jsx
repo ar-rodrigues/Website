@@ -53,7 +53,7 @@ function App() {
       </div>
       <Contact lang={lang}/>
       <footer>
-        <h4>{"</> Criado por Alisson Rodrigues </>"}</h4>
+        <h4>{"</> Creado por Alisson Rodrigues </>"}</h4>
       </footer>
     </main>
   );
