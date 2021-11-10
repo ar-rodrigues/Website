@@ -43,7 +43,7 @@ function Contact() {
   return (
     <section id="contact-box" className="contact-box">
       <h3>
-        Quieres saber más? <br /> Entre en contacto conmigo!
+        Quieres saber más? <br /> Entra en contacto conmigo!
       </h3>
       <form
         id="contact"
