@@ -281,13 +281,15 @@ Language Choice
 */
 .language {
   width: 100vw;
-  height: 100vw;
+  height: 60vw;
   display: grid;
   place-items: center;
   text-align: center;
+  
 }
 .flag-box {
   width: 80vw;
+  margin-top: 2rem;
   padding: 2vw 0 4vw 0;
   background: rgba(255, 255, 255, 0.83);
   display: flex;
