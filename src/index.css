@@ -174,14 +174,15 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
+  position: fixed;
   top: 85%;
-  left: 85%;
+  right: 10%;
   color: var(--clr-blue);
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
-  position: fixed;
+  
   z-index: 10;
 }
 .nav-toggle:hover {
@@ -212,8 +213,8 @@ nav {
   height: 0;
   overflow: hidden;
   position: fixed;
-  top: 52%;
-  left: 63%;
+  bottom: 13%;
+  right: 15%;
   background: var(--clr-blue);
   z-index: 10;
   transition: var(--transition);
@@ -258,7 +259,6 @@ nav {
     padding: 0;
     background: transparent;
     border: none;
-    padding-right: 0.3rem;
     color: var(--clr-grey-10);
   }
   .social-icons {
@@ -425,7 +425,7 @@ Buttons for Alternate Sections
   transform: translateY(-50%);
   background: var(--clr-blue);
   color: var(--clr-grey-10);
-  width: 2rem;
+  width: 1.5rem;
   height: 2rem;
   display: grid;
   place-items: center;
@@ -597,22 +597,20 @@ Experiences
 /*
 Skills
 */
-
+.container-skill {
+  width: 90vw;
+  place-content: center;
+  
+}
 .skill-center {
-  margin: 0;
   display: grid;
-  place-items: center;
+  place-content: center;
 }
 .skill-center svg {
-  margin: 0;
+  max-width: 90%;
+
 }
 
-@media screen and (min-width: 992px) {
-  .skill-center {
-    width: 30vw;
-    height: 25vw;
-  }
-}
 
 /*
 =============== 
