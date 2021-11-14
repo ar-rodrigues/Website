@@ -134,7 +134,7 @@ export const experiences = [
     title: "Ejército Brasileño",
     dates: "Março 2013 - Fevereiro 2016",
     duties: [
-      "Como 3er Sargento de Comunicaciones, trabajé en la planificación y ejecución de operaciones de campo, instalación de campo eléctrico, radio y comunicaciones, así como tareas administrativas.",
+      "Como 3er Sargento de Comunicaciones, trabajé en la planificación y ejecución de operaciones de campo, instalación eléctrica, radio y comunicaciones, así como tareas administrativas.",
       "Planificación y dirección de grupos para trabajar dentro y fuera del cuartel, en campo y situaciones operativas."
     ],
     company: "Ejército"
