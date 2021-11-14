@@ -10,6 +10,10 @@ import {
 import { skills } from "./data";
 
 function Skills() {
+  
+  const width  = window.innerWidth || document.documentElement.clientWidth || 
+document.body.clientWidth;
+
   return (
     <section>
       <div className="title">
@@ -22,10 +26,10 @@ function Skills() {
               //chart
             }
             <RadarChart
-              cx="50%"
+              cx="49%"
               innerRadius="10%"
-              outerRadius="70%"
-              width={450}
+              outerRadius="65%"
+              width={width}
               height={400}
               margin={{ top: 0, right: 0, bottom: 5, left: 0 }}
               data={skills}
