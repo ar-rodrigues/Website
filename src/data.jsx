@@ -206,6 +206,11 @@ export const courses = [
 
 export const skills = [
   {
+    subject: "Python",
+    nivel: 2,
+    fill: "#34a6ed"
+  },
+  {
     subject: "JavaScript",
     nivel: 3,
     fill: "#34a6ed"
@@ -242,7 +247,7 @@ export const skills = [
   },
   {
     subject: "Español",
-    nivel: 4,
+    nivel: 5,
     fill: "#8dd1e1"
   },
   {
