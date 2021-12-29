@@ -26,7 +26,7 @@ function Contact() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...fields })
     })
-      .then(() => alert("Mensaje enviada!"))
+      .then(() => alert("Mensagem enviada!"))
       .then(() =>
         setFields({
           data: "",
@@ -43,7 +43,7 @@ function Contact() {
   return (
     <section id="contact-box" className="contact-box">
       <h3>
-        Quieres saber más? <br /> Entre en contacto conmigo!
+        Quer saber mais? <br /> Entre em contato comigo!
       </h3>
       <form
         id="contact"
@@ -69,7 +69,7 @@ function Contact() {
           </div>
           <input type="hidden" name="form-name" value="contact" />
           <label htmlFor="name" id="name" className="form-label">
-            Nombre:
+            Nome:
           </label>
           <input
             type="text"
@@ -78,7 +78,7 @@ function Contact() {
             onChange={(e) => handleChange(e)}
             className="form-input"
             name="name"
-            placeholder="introduzca aquí su nombre"
+            placeholder="insira aqui seu nome"
             required
           />
         </div>
@@ -104,7 +104,7 @@ function Contact() {
           id="message"
           value={fields.message}
           onChange={(e) => handleChange(e)}
-          placeholder="dudas, sugerencias, consejos..."
+          placeholder="dúvidas, sugestões, conselhos..."
           rows="5"
           cols="50"
           required
