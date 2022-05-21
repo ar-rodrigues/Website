@@ -60,7 +60,15 @@ Global Styles
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
+*::-webkit-scrollbar {
+  display: none;
+}
+
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -68,6 +76,7 @@ body {
   color: var(--clr-black);
   line-height: 1.5;
   font-size: 0.875rem;
+  
 }
 main {
   display: flex;
@@ -288,25 +297,30 @@ Language Choice
 }
 .flag-box {
   width: 80vw;
+  min-width: 150px;
   margin-top: 2rem;
-  padding: 2vw 0 4vw 0;
+  padding: 5vw 0 10vw 0;
   background: rgba(255, 255, 255, 0.83);
   display: flex;
   flex-direction: column;
+  justify-content: center;
   font-size: 2vw;
   color: var(--clr-blue);
   border-radius: var(--radius-50);
 }
 .flag-box img {
   width: auto;
-  height: 30vh;
+  height: 7rem;
   margin: 3vw;
 }
 @media screen and (max-width: 800px) {
   .flag-box img {
-    height: 15vh;
-    width: auto;
+    float: center;
+    width:  7rem;
+    height: 5rem;
+    object-fit: cover;
     margin: 1.5vw;
+    min-width: 100px;
   }
 }
 
@@ -614,6 +628,54 @@ Skills
 
 /*
 =============== 
+Portfolio
+=============== 
+*/
+
+.portfolio{
+  width: 95vw;
+  margin: 0vw auto 5vw auto;
+  padding: 5vw 0 10vw 0;
+  background: var(--clr-white);
+  box-shadow: var(--light-shadow);
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  
+}
+
+.portf-list{
+  padding: 5vw 0 0vw 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.portf-item{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 0 1 15rem;
+  
+    
+}
+
+.portf-item img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  background: var(--clr-white);
+  box-shadow: var(--light-shadow);
+}
+
+
+
+/*
+=============== 
 Contact
 =============== 
 */
@@ -690,4 +752,21 @@ Contact
   transform: var(--transition);
   background-color: var(--clr-grey-10);
   color: var(--clr-blue);
+}
+
+
+
+/*
+=============== 
+Footer
+=============== 
+*/
+
+footer {
+  gap: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+footer a {
+  margin: 0 .5rem 0 .5rem;
 }

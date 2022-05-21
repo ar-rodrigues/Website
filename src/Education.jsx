@@ -8,7 +8,7 @@ function Education() {
   const { title, field, institution, dates, names, certified } = courses[value];
 
   return (
-    <section>
+    <section id="education" >
       <div className="title">
         <h2>Cursos</h2>
         <div className="underline"></div>

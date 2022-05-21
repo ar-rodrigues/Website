@@ -9,7 +9,7 @@ function Experiences() {
   const { company, dates, duties, title } = experiences[value];
 
   return (
-    <section>
+    <section id="experiences">
       <div className="title">
         <h2>{links[2].text}</h2>
         <div className="underline"></div>

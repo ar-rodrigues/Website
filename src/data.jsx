@@ -35,16 +35,21 @@ export const links = [
   },
   {
     id: 3,
-    url: "#experiences",
+    url: "#education",
     text: "cursos"
   },
   {
     id: 4,
-    url: "#experiences",
+    url: "#skills",
     text: "Habilidades"
   },
   {
     id: 5,
+    url: "#portfolio",
+    text: "Portfólio"
+  },
+  {
+    id: 6,
     url: "#contact-box",
     text: "Contato"
   }
@@ -243,6 +248,11 @@ export const skills = [
     fill: "#83a6ed"
   },
   {
+    subject: "WordPress",
+    nivel: 3,
+    fill: "#83a6ed"
+  },
+  {
     subject: "Francês",
     nivel: 3,
     fill: "#83a6ed"
@@ -272,6 +282,6 @@ export const infos = [
     photo:
       "https://lh3.googleusercontent.com/pw/ACtC-3fFEeC-7dVdDJVXEqhtUiUbXS3LzzYMT4gkf_uo-JfzKTM9-6VGyAoWQTuE0mXItvnQ0ZXXG_t6Rhrc_E5jLt5IYpswTQqdZ-J7pAomjs7XLa1TjYpq6gsZxG4GQq6ECWxMRvbZnLEv-ZlL9OpEgZlMeQ=w908-h681-no?authuser=0",
     about:
-      'Aprender, evoluir e explorar limites são os condutores de todas as experiências que escolhi. Buscar novos conhecimentos é o objetivo em todas as atividades que empreendo. Meus interesses são um misto de muitas áreas. Vão da sociedade, economia e inovação, até o marketing e programação. Acredito que a inovação depende do fluxo constante entre diferentes campos. Como disse Lavoisier: "na natureza nada se cria e nada se perde, tudo se transforma".'
+      'Sou gaúcho, apaixonado por aprender idiomas e descobrir coisas novas. Sou autodidata, falo quatro idiomas, aprendi programação durante a pandemia e venho trabalhando, desde o México, como freelancer neste último ano.'
   }
 ];
