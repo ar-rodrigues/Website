@@ -7,14 +7,17 @@ import Experiences from './Experiences'
 import Skills from './Skills'
 import Navbar from './Navbar'
 import LanguageChoice from './LanguageChoice'
+import Portfolio from './Portfolio'
 
 import { AiOutlineRight, AiOutlineLeft } from "react-icons/ai";
 
 function App() {
+  const mexicoFlag = "mexico-flag.png";
+  const brazilFlag = "brazil-flag.png";
   const refer = document.referrer //identifies the redirection to avoid Language Choice
-  console.log(refer)
-  const [lang, setLang] = useState(0)
   
+  const [lang, setLang] = useState(0)
+
 
   const [activeSection, setActiveSection] = useState([
     <Experiences lang={lang}/>,
@@ -24,7 +27,7 @@ function App() {
 
   const [index, setIndex] = useState(0);
 
-  console.log(index)
+  
   useEffect(() => {
     const lastIndex = activeSection.length - 1;
     if (index < 0) {
@@ -34,8 +37,17 @@ function App() {
       setIndex(0);
     }
   }, [index, activeSection]);
-  console.log(`lang is ${lang}`)
-  if(lang === 0 && refer !== 'https://alisson-rodrigues-pt.netlify.app/')return <LanguageChoice setLang={setLang} />
+
+  /*
+  caches.match('spanish').then((cache)=>{
+    console.log(cache.ok)
+  })
+  */
+
+  caches.keys().then((cache)=> setLang(cache[0]))
+  
+  
+  if(lang != 1)return <LanguageChoice setLang={setLang} brazilFlag={brazilFlag} mexicoFlag={mexicoFlag} />
 
   return (
     <main>
@@ -51,8 +63,17 @@ function App() {
         </button>
         {activeSection[index]}
       </div>
+      <Portfolio />
       <Contact lang={lang}/>
       <footer>
+        <div>
+          <a href='https://alisson-rodrigues-pt.netlify.app/'>
+            <img src={brazilFlag} height="25" />
+          </a>
+          <a href='https://alisson-rodrigues.netlify.app/'>
+            <img src={mexicoFlag} height="25" />
+          </a>
+        </div>
         <h4>{"</> Creado por Alisson Rodrigues </>"}</h4>
       </footer>
     </main>

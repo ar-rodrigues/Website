@@ -43,6 +43,11 @@ export const links = [
   },
   {
     id: 5,
+    url: "#portfolio",
+    text: "Portafolio"
+  },
+  {
+    id: 6,
     url: "#contact-box",
     text: "Contacto"
   }
@@ -270,6 +275,6 @@ export const infos = [
     photo:
       "https://lh3.googleusercontent.com/pw/ACtC-3fFEeC-7dVdDJVXEqhtUiUbXS3LzzYMT4gkf_uo-JfzKTM9-6VGyAoWQTuE0mXItvnQ0ZXXG_t6Rhrc_E5jLt5IYpswTQqdZ-J7pAomjs7XLa1TjYpq6gsZxG4GQq6ECWxMRvbZnLEv-ZlL9OpEgZlMeQ=w908-h681-no?authuser=0",
     about:
-      'Aprender, evolucionar y explorar límites son los motores de todas las experiencias que elijo. Buscar nuevos conocimientos es el objetivo en todas las actividades que realizo. Mis intereses son una mezcla de muchas áreas. Van desde la sociedad, la economía y la innovación hasta el marketing y la programación. Creo que la innovación depende del flujo constante entre diferentes campos. Como decía Lavoisier: "en la naturaleza nada se crea y nada se pierde, todo se transforma".'
+      'Soy de Brasil, apasionado por aprender idiomas y descubrir cosas nuevas. Soy autodidacta, hablo cuatro idiomas, aprendí programación durante la pandemia y vengo trabajando como freelancer por el último año.'
   }
 ];

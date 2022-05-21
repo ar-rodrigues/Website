@@ -11,7 +11,7 @@ function Home() {
     >
       <div className="header-box">
         <h3>Alisson Rodrigues</h3>
-        <h4>Estudiante de Ciencias Sociales (UFRGS)</h4>
+        <h4>Marketing y Web Dev</h4>
       </div>
     </header>
   );

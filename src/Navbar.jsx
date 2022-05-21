@@ -10,6 +10,7 @@ const Navbar = ({ setIndex }) => {
     setShowLinks(!showLinks);
   };
 
+
   useEffect(() => {
     const linksHeight = linksRef.current.getBoundingClientRect().height;
     if (showLinks) {
@@ -34,7 +35,12 @@ const Navbar = ({ setIndex }) => {
                 <li key={id}>
                   <a
                     onClick={() => {
-                      return setIndex(id - 2);
+                      const timer = setTimeout(() => {
+                        setShowLinks(false)
+                      }, 1000);
+                      () => clearTimeout(timer);
+                      return setIndex(id - 2)
+                      
                     }}
                     href={url}
                   >

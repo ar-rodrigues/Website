@@ -1,9 +1,24 @@
 import React from "react";
 import {websites} from './data'
 
-function Language({setLang}) {
-  const spanishFlag = "spanish-flag.png";
-  const brazilFlag = "brazil-flag.png";
+function Language({setLang, brazilFlag, mexicoFlag}) {
+  const refer = document.referrer.toString()
+  
+
+  const setLanguage = (cacheName, url,num)=>{
+    
+    const data = new Response(JSON.stringify(url));
+  
+
+    if ('caches' in window) {
+      // Opening given cache and putting our data into it
+      caches.open(num).then((cache) => {
+        cache.put(cacheName, data);
+      });
+    }
+    setLang(num);
+    
+  }
 
   return (
     <header
@@ -16,8 +31,8 @@ function Language({setLang}) {
             <img src={brazilFlag} alt='bandeira do brasil'    width='100'/>
           </a>
 
-          <a href='#' onClick={()=>setLang(1)}>
-            <img src={spanishFlag} alt='bandera de españa'  width='100'/>
+          <a href='#' onClick={()=> setLanguage("spanish",refer, 1)}>
+            <img src={mexicoFlag} alt='bandera de mexico'  width='100'/>
           </a>
         </div>
       </div>
