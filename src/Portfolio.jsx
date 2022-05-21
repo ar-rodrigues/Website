@@ -23,7 +23,7 @@ function Portfolio() {
       <div className="portf-item">
         <h4>Single Page App - React</h4>
         <a 
-          href="https://tugueder.epizy.com/"
+          href="https://alisson-rodrigues.netlify.app/"
           target="_blank">
             <img src={secondgImg} />
         </a>
