@@ -9,7 +9,7 @@ function Portfolio() {
   return (
     <section id="portfolio" className="portfolio">
       <h3>
-        Portafolio
+        Portflio
       </h3>
     <div className="portf-list">
       <div className="portf-item">

@@ -38,11 +38,6 @@ function App() {
     }
   }, [index, activeSection]);
 
-  /*
-  caches.match('spanish').then((cache)=>{
-    console.log(cache.ok)
-  })
-  */
 
   caches.keys().then((cache)=> setLang(cache[0]))
   

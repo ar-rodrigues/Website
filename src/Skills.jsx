@@ -15,7 +15,7 @@ function Skills() {
 document.body.clientWidth;
 
   return (
-    <section className='container-skill'>
+    <section id="skills" className='container-skill'>
       <div className="title">
         <h2>Habilidades</h2>
       </div>

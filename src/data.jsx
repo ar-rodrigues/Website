@@ -33,12 +33,12 @@ export const links = [
   },
   {
     id: 3,
-    url: "#experiences",
+    url: "#education",
     text: "cursos"
   },
   {
     id: 4,
-    url: "#experiences",
+    url: "#skills",
     text: "Habilidades"
   },
   {
@@ -234,6 +234,11 @@ export const skills = [
     subject: "MongoDB",
     nivel: 3,
     fill: "#34a6ed"
+  },
+  {
+    subject: "WordPress",
+    nivel: 3,
+    fill: "#83a6ed"
   },
   {
     subject: "HTML",
