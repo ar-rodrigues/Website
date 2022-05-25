@@ -43,7 +43,7 @@ export const links = [
   },
   {
     id: 5,
-    url: "#portafolio",
+    url: "#portfolio",
     text: "Portafolio"
   },
   {
