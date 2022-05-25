@@ -43,7 +43,7 @@ export const links = [
   },
   {
     id: 5,
-    url: "#portfolio",
+    url: "#portafolio",
     text: "Portafolio"
   },
   {
@@ -280,6 +280,6 @@ export const infos = [
     photo:
       "https://lh3.googleusercontent.com/pw/ACtC-3fFEeC-7dVdDJVXEqhtUiUbXS3LzzYMT4gkf_uo-JfzKTM9-6VGyAoWQTuE0mXItvnQ0ZXXG_t6Rhrc_E5jLt5IYpswTQqdZ-J7pAomjs7XLa1TjYpq6gsZxG4GQq6ECWxMRvbZnLEv-ZlL9OpEgZlMeQ=w908-h681-no?authuser=0",
     about:
-      'Soy de Brasil, apasionado por aprender idiomas y descubrir cosas nuevas. Soy autodidacta, hablo cuatro idiomas, aprendí programación durante la pandemia y vengo trabajando como freelancer por el último año.'
+      'Soy brasileño, apasionado por aprender idiomas y descubrir cosas nuevas. Soy autodidacta, hablo cuatro idiomas, desarrolle mis habilidades de programación durante la pandemia y en el último año me he dedicado a trabajar como free-lancer.'
   }
 ];
