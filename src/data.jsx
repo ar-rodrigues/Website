@@ -24,7 +24,7 @@ export const links = [
   {
     id: 1,
     url: "#about",
-    text: "sobre"
+    text: "sobre mi"
   },
   {
     id: 2,
@@ -93,9 +93,9 @@ export const experiences = [
     dates: "Agosto 2018 - Septiembre 2019",
     duties: [
       "Becario de iniciación científica.",
-      'Colaboré ​​en el proyecto "Acción emprendedora en pequeñas y medianas empresas de base tecnológica".',
+      'Colaboré en el proyecto "Acción emprendedora en pequeñas y medianas empresas de base tecnológica".',
       "Desarrollé actividades de investigación como entrevistas, reportajes y tareas administrativas.",
-      'Elaboré ​​y presente el trabajo "Un estudio etnográfico sobre la acción emprendedora en startups, Brasil y México" en el Salón de Iniciación Científica de la UFRGS.'
+      'Elaboré y presente el trabajo "Un estudio etnográfico sobre la acción emprendedora en startups, Brasil y México" en el Salón de Iniciación Científica de la UFRGS.'
     ],
     company: "GPSET"
   },
