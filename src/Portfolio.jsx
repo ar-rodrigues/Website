@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 
 function Portfolio() {
-  const firstImg = "tugueder_v2.png";
+  const firstImg = "drakelfo-website.png";
   const secondgImg = "sites-preview.png";
   
 
@@ -15,7 +15,7 @@ function Portfolio() {
       <div className="portf-item">
         <h4>Ecommerce - WordPress</h4>
         <a 
-          href="https://tugueder.epizy.com/"
+          href="https://drakelfo.mx/"
           target="_blank">
             <img src={firstImg} />
         </a>
