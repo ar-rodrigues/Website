@@ -76,19 +76,42 @@ export const social = [
 //
 export const experiences = [
   {
-    id: "nossacasa2019",
-    order: 1,
-    title: "Nossa Casa - Hub Colaborativo",
-    dates: "Septiembre 2019 - Febrero 2019",
+    id: "gentedemas2022",
+    order: 0,
+    title: "Hostal Gente de Más BnB",
+    dates: "Julio 2022 - Actualmente",
     duties: [
-      "Actividad voluntaria.",
-      "Elaboración de materiales y estrategia de difusión y publicación en redes sociales."
+      "Recepcionista.",
+      "Registrar a los huéspedes, proporcionar información sobre el lugar y la ciudad, manejar pagos y cobros, y brindar servicio al cliente."
     ],
-    company: "Nossa Casa"
+    company: "Hostal Gente de Más Bnb"
+  },
+  {
+    id: "freelancer00",
+    order: 1,
+    title: "Freelancer Web Developer",
+    dates: "Agosto 2021 - Actualmente",
+    duties: [
+      "Web Developer.",
+      "Creación de paginas web, desarrollar, implementar y mantener sitios web de acuerdo con los requerimientos del cliente. Creación de contenido, la optimización de la experiencia del usuario (UX) y la comprobación de la compatibilidad con todos los dispositivos."
+    ],
+    company: "Freelancer"
+  },
+  {
+    id: "wpbr2019",
+    order: 2,
+    title: "WPBR Marketing Digital - México",
+    dates: "Julio 2019 - Septiembre 2019",
+    duties: [
+      "Trainee Internacional en la ciudad de Puebla, México, en el área de marketing.",
+      "Gestión de campañas de PPC en Facebook.",
+      "Campañas creadas, administradas, monitoreadas y optimizadas en Facebook."
+    ],
+    company: "WPBR"
   },
   {
     id: "gpset2019",
-    order: 2,
+    order: 3,
     title: "Grupo De Investigación Sociedad, Economía Y Trabajo (GPSET- UFRGS)",
     dates: "Agosto 2018 - Septiembre 2019",
     duties: [
@@ -98,18 +121,6 @@ export const experiences = [
       'Elaboré y presente el trabajo "Un estudio etnográfico sobre la acción emprendedora en startups, Brasil y México" en el Salón de Iniciación Científica de la UFRGS.'
     ],
     company: "GPSET"
-  },
-  {
-    id: "wpbr2019",
-    order: 3,
-    title: "WPBR Marketing Digital - México",
-    dates: "Julio 2019 - Septiembre 2019",
-    duties: [
-      "Trainee Internacional en la ciudad de Puebla, México, en el área de marketing.",
-      "Gestión de campañas de PPC en Facebook.",
-      "Campañas creadas, administradas, monitoreadas y optimizadas en Facebook."
-    ],
-    company: "WPBR"
   },
   {
     id: "nitec2018",
