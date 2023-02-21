@@ -78,15 +78,44 @@ export const social = [
 //
 export const experiences = [
   {
-    id: "nossacasa2019",
-    order: 1,
-    title: "Nossa Casa - Hub Colaborativo",
-    dates: "Setembro 2019 - Fevereiro 2019",
+    id: "gentedemas2022",
+    order: 0,
+    title: "Hostal Gente de Más BnB - Puebla, México",
+    dates: "Julio 2022 - atualmente",
     duties: [
-      "Atividade voluntária.",
-      "Elaborava materiais e estratégia de divulgação e publicacava em redes sociais."
+      "Recepcionista.",
+      "Recepcionar os hóspedes no check-in e check-out;",
+"Fornecer informações sobre o hostel, serviços oferecidos e atrações locais;",
+"Responder às perguntas dos hóspedes e fornecer assistência quando necessário;",
+"Manter o lobby e a recepção limpos e organizados;",
+"Gerenciar reservas e atualizar informações dos hóspedes no sistema;",
+"Trabalhar em colaboração com a equipe do hostel para garantir a satisfação do hóspede e uma experiência de hospedagem agradável.",
     ],
-    company: "Nossa Casa"
+    company: "Hostal Gente de Más Bnb"
+  },
+  {
+    id: "freelancer00",
+    order: 1,
+    title: "Freelancer Web Developer",
+    dates: "Agosto 2021 - atual",
+    duties: [
+      "Web Developer.",
+      "Criação de páginas web, desenvolvimento, implementação e manutenção de sites de acordo com os requisitos do cliente.",
+      "Criação de conteúdo, otimização da experiência do usuário (UX) e verificação de compatibilidade com todos os dispositivos."
+    ],
+    company: "Freelancer"
+  },
+  {
+    id: "wpbr2019",
+    order: 2,
+    title: "WPBR Marketing Digital - Puebla, México",
+    dates: "Julio 2019 - Septiembre 2019",
+    duties: [
+      "Trainee Internacional na cidade de Puebla, México, na área de marketing.",     
+"Gestão de campanhas de PPC no Facebook.",
+"Criação, administração, monitoramento e otimização de campanhas no Facebook."
+    ],
+    company: "WPBR"
   },
   {
     id: "gpset2019",
@@ -104,7 +133,7 @@ export const experiences = [
   {
     id: "wpbr2019",
     order: 3,
-    title: "WPBR Marketing Digital - México",
+    title: "WPBR Marketing Digital - Puebla, México",
     dates: "Julho 2019 - Setembro 2019",
     duties: [
       "Trainee internacional na cidade de Puebla no México, na área de marketing.",
