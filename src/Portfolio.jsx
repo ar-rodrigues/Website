@@ -5,7 +5,6 @@ function Portfolio() {
   const firstImg = "drakelfo-website.png";
   const secondgImg = "sites-preview.png";
   const thirdImg = "dashboard.png";
-  
 
   return (
     <section id="portfolio" className="portfolio">
