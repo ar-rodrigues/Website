@@ -228,17 +228,17 @@ export const skills = [
   },
   {
     subject: "JavaScript",
-    nivel: 3,
+    nivel: 4,
     fill: "#34a6ed"
   },
   {
     subject: "React",
-    nivel: 3,
+    nivel: 4,
     fill: "#34a6ed"
   },
   {
     subject: "NodeJS",
-    nivel: 3,
+    nivel: 4,
     fill: "#34a6ed"
   },
   {
@@ -253,12 +253,12 @@ export const skills = [
   },
   {
     subject: "HTML",
-    nivel: 3,
+    nivel: 4,
     fill: "#83a6ed"
   },
   {
     subject: "CSS",
-    nivel: 3,
+    nivel: 4,
     fill: "#83a6ed"
   },
   {
@@ -268,12 +268,12 @@ export const skills = [
   },
   {
     subject: "Español",
-    nivel: 5,
+    nivel: 6,
     fill: "#8dd1e1"
   },
   {
     subject: "Inglés",
-    nivel: 5,
+    nivel: 6,
     fill: "#83a6ed"
   },
   {
