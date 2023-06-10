@@ -30,7 +30,7 @@ function Portfolio() {
         </a>
       </div>
       <div className="portf-item">
-        <h4>Full Stack Dashboard App - NEXT JS</h4>
+        <h4>Full-Stack Dashboard App - NEXT JS</h4>
         <a 
           href="https://drakelfo-dashboard.alissonrodrigu3.repl.co/dashboard"
           target="_blank">
