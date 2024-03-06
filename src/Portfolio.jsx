@@ -4,7 +4,7 @@ import React, { useState } from "react";
 function Portfolio() {
   const firstImg = "drakelfo-website.png";
   const secondgImg = "sites-preview.png";
-  const thirdImg = "dashboard.png"
+  const thirdImg = "landing-page.png"
   const fourthImg = "fullstackPortfolio.png"
   
 
@@ -38,7 +38,14 @@ function Portfolio() {
             <img src={secondgImg} />
         </a>
       </div>
-      
+      <div className="portf-item">
+        <h4>Landing Page - NEXT JS (En Construcción)</h4>
+        <a 
+          href="https://landing-constru.netlify.app/"
+          target="_blank">
+            <img src={thirdImg} />
+        </a>
+      </div>
     </div>
 
 
