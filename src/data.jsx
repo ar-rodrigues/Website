@@ -75,17 +75,18 @@ export const social = [
 ];
 //
 export const experiences = [
-  /*{
-    id: "gentedemas2022",
+  {
+    id: "SEV2023",
     order: 0,
-    title: "Hostal Gente de Más BnB",
-    dates: "Julio 2022 - Actualmente",
+    title: "Marketing/ Administrativo",
+    dates: "Octubre 2023 - Actualmente",
     duties: [
-      "Recepcionista.",
-      "Registrar a los huéspedes, proporcionar información sobre el lugar y la ciudad, manejar pagos y cobros, y brindar servicio al cliente."
+      "Manejo de redes sociales.",
+      "Manejo de CRM.",
+      "Establecimiento de canales digitales."
     ],
-    company: "Hostal Gente de Más Bnb"
-  },*/
+    company: "SEV Puebla - Grupo Fersan"
+  },
   {
     id: "freelancer00",
     order: 1,

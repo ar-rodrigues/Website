@@ -19,7 +19,7 @@ function Portfolio() {
         <a 
           href="https://inventary-orders.netlify.app/"
           target="_blank">
-            <img src={fouthImg} />
+            <img src={fourthImg} />
         </a>
       </div>
       <div className="portf-item">
@@ -38,14 +38,7 @@ function Portfolio() {
             <img src={secondgImg} />
         </a>
       </div>
-      <div className="portf-item">
-        <h4>Full-Stack Dashboard App - NEXT JS</h4>
-        <a 
-          href="https://drakelfo-dashboard.alissonrodrigu3.repl.co/dashboard"
-          target="_blank">
-            <img src={thirdImg} />
-        </a>
-      </div>
+      
     </div>
 
 
