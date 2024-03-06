@@ -5,6 +5,7 @@ function Portfolio() {
   const firstImg = "drakelfo-website.png";
   const secondgImg = "sites-preview.png";
   const thirdImg = "dashboard.png"
+  const fourthImg = "fullstackPortfolio.png"
   
 
   return (
@@ -13,6 +14,14 @@ function Portfolio() {
         Portafolio
       </h3>
     <div className="portf-list">
+      <div className="portf-item">
+        <h4>FULL STACK PLATFORM</h4>
+        <a 
+          href="https://inventary-orders.netlify.app/"
+          target="_blank">
+            <img src={fouthImg} />
+        </a>
+      </div>
       <div className="portf-item">
         <h4>Ecommerce - WordPress</h4>
         <a 
